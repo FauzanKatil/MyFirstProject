@@ -14,6 +14,8 @@ public class Act2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        int a = 10;
+
         Button btnStart = findViewById(R.id.btn1);
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
