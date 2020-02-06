@@ -4,17 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Putih"
-    android:
+    android:background="#000010"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
 
     <ImageView
         android:id="@+id/img"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/stark"
+        android:src="@drawable/aryen"
         android:layout_marginTop="8dp"
         android:layout_gravity="center"/>
 
@@ -24,8 +22,8 @@
         android:layout_height="wrap_content"
         android:text="START"
         android:layout_marginTop="350dp"
-        android:textColor="@color/Hitam"
+        android:textColor="@color/Jingga"
         android:layout_gravity="center"
-        android:background="@color/Abu_abu"/>
+        android:background="#080535"/>
 
 </LinearLayout>
