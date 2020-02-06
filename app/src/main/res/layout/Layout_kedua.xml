@@ -16,7 +16,7 @@
         android:src="@drawable/stark"
         android:layout_marginTop="8dp"
         android:layout_gravity="center"/>
-
+<!--ini Button-->
     <Button
         android:id="@+id/btn1"
         android:layout_width="150dp"
