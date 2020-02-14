@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Putih"
+    android:background="@drawable/background1"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Act2">
 
 
     <ImageView
@@ -16,9 +16,9 @@
         android:src="@drawable/stark"
         android:layout_marginTop="8dp"
         android:layout_gravity="center"/>
-<!--ini Button-->
+
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/btn2"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="START"

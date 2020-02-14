@@ -2,4 +2,17 @@
     <string name="app_name">MyFirstProject</string>
     <string name="Login">Login</string>
     <string name="contoh">Start \nRank \nAbout \nSetting \nExit \n</string>
+    <string name="ap1"> > KTP harus </string>
+    <string name="aps1"> terfoto sepenuhnya </string>
+    <string name="ap2"> > KTP harus tampak jelas </string>
+    <string name="aps2"> (tidak buram) </string>
+    <string name="ap3"> > KTP </string>
+    <string name="aps3"> masih berlaku </string>
+
+    <string name="p1"> > Wajah dan KTP harus </string>
+    <string name="ps1"> terfoto sepenuhnya </string>
+    <string name="p2"> > Wajah dan KTP harus tampak jelas </string>
+    <string name="ps2"> (tidak buram) </string>
+    <string name="p3"> > Letakkan KTP </string>
+    <string name="ps3"> disamping wajahmu saat mengambil foto </string>
 </resources>
