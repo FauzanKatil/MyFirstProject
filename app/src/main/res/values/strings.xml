@@ -12,7 +12,8 @@
     <string name="p1"> > Wajah dan KTP harus </string>
     <string name="ps1"> terfoto sepenuhnya </string>
     <string name="p2"> > Wajah dan KTP harus tampak jelas </string>
-    <string name="ps2"> (tidak buram) </string>
+    <string name="ps2"> (buram) </string>
     <string name="p3"> > Letakkan KTP </string>
-    <string name="ps3"> disamping wajahmu saat mengambil foto </string>
+    <string name="ps3"> Disamping wajahmu </string>
+    <string name="ps4"> saat mengambil foto</string>
 </resources>

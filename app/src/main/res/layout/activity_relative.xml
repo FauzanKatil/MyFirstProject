@@ -4,34 +4,179 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
     tools:context=".RelativeAct">
+    <ImageView
+        android:id="@+id/stark1"
+        android:layout_width="150dp"
+        android:layout_marginLeft="35dp"
+        android:layout_height="150dp"
+        android:src="@drawable/stark"/>
+    <ImageView
+        android:id="@+id/stark2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/stark"
+        android:layout_toRightOf="@+id/stark1"/>
     <TextView
-        android:id="@+id/txt_relative"
-        android:layout_width="match_parent"
+        android:id="@+id/tek1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ini adalah Layout Relative"
-        android:textColor="@color/Hitam"
-        android:gravity="center_horizontal"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:text="@string/ap1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_below="@id/stark1"/>
     <TextView
-        android:id="@+id/txt_bariskedua"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Ini adalah baris kedua"
-        android:textColor="@color/Hitam"
-        android:gravity="center_horizontal"
-        android:textSize="20sp"
-        android:layout_below="@id/txt_relative"
-        android:textStyle="bold"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/txt_barisketiga"
+        android:id="@+id/tek2"
+        android:layout_width="wrap_content"
         android:textStyle="bold"
-        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="@string/aps1"
         android:textColor="@color/Hitam"
-        android:gravity="center_horizontal"
-        android:layout_below="@id/txt_bariskedua"
-        android:text="Ini adalah baris ketiga"/>
+        android:layout_below="@id/stark1"
+        android:layout_toRightOf="@id/tek1"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tek3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ap2"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_below="@id/tek1"/>
+    <TextView
+        android:id="@+id/tek4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aps2"
+        android:textColor="@color/Hitam"
+        android:textStyle="bold"
+        android:layout_below="@id/tek1"
+        android:layout_toRightOf="@id/tek3"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/tek5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ap3"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_below="@id/tek3"/>
+    <TextView
+        android:id="@+id/tek6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aps3"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/Hitam"
+        android:layout_below="@id/tek3"
+        android:layout_toRightOf="@id/tek5"
+        android:textSize="20dp"/>
+
+
+
+    <ImageView
+        android:id="@+id/stark3"
+        android:layout_width="150dp"
+        android:layout_marginLeft="35dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/tek5"
+        android:src="@drawable/stark"/>
+    <ImageView
+        android:id="@+id/stark4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/tek5"
+        android:src="@drawable/stark"
+        android:layout_toRightOf="@+id/stark3"/>
+
+
+    <TextView
+        android:id="@+id/teks1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/p1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_below="@id/stark3"/>
+    <TextView
+        android:id="@+id/teks2"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="@string/ps1"
+        android:textColor="@color/Hitam"
+        android:layout_below="@id/stark3"
+        android:layout_toRightOf="@id/teks1"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/teks3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/p2"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_below="@id/teks1"/>
+    <TextView
+        android:id="@+id/teks4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/ps2"
+        android:textColor="@color/Hitam"
+        android:layout_below="@id/teks1"
+        android:layout_toRightOf="@id/teks3"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/teks5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/p3"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_below="@id/teks3"/>
+    <TextView
+        android:id="@+id/teks6"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="@string/ps3"
+        android:textColor="@color/Hitam"
+        android:layout_below="@id/teks3"
+        android:layout_toRightOf="@id/teks5"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/teks7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ps4"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/Hitam"
+        android:layout_below="@+id/teks5"
+        android:layout_marginLeft="15dp"/>
+    <Button
+        android:id="@+id/btnambil"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Ambil Foto KTP"
+        android:textColor="@color/Putih"
+        android:background="@color/Biru"
+        android:layout_marginLeft="35dp"
+        android:layout_below="@id/teks7"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Selfie KTP"
+        android:textColor="@color/Putih"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:background="@color/Merah"
+        android:layout_toRightOf="@+id/btnambil"
+        android:layout_below="@id/teks7"/>
+
 </RelativeLayout>
